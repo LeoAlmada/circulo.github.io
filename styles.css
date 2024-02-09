@@ -1,0 +1,31 @@
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #ececec;
+    border-radius: 50%;
+    margin: 50px auto;
+  }
+  
+  .controls {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  input[type="range"] {
+    width: 200px;
+  }
+  
+  #toggleButton {
+    background-color: #006b74;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #toggleButton:hover {
+    background-color: #36bcc8;
+  }
+  
